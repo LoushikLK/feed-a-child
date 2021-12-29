@@ -1,0 +1,28 @@
+.read-more-img {
+  border-radius: 9px;
+  overflow: hidden;
+  img {
+    width: 17rem;
+    max-height: 13rem;
+    object-fit: cover;
+  }
+}
+.read-more-link {
+  a {
+    display: flex;
+    align-items: center;
+  }
+}
+.read-more-stat {
+  position: relative;
+  p {
+    position: absolute;
+    top: 11rem;
+    left: 0;
+    padding: 0.5rem;
+    background: $dark;
+    color: #ffffff;
+    width: 100%;
+    font-weight: bold;
+  }
+}

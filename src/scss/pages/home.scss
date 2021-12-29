@@ -1,0 +1,83 @@
+.home-main {
+  padding: 10rem 0;
+}
+
+.home-campaigns {
+  background-color: $light;
+  padding: 8rem 0;
+}
+.home-past-campaign {
+  padding: 5rem 0;
+  h1 {
+    padding: $base-padding 0;
+    font-size: $font-size-lg;
+  }
+}
+
+.home-read-more-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1.25rem 0;
+}
+
+.home-social-page {
+  background-color: $light;
+  padding: 5rem 0;
+}
+
+.home-register-link {
+  a {
+    display: flex;
+    align-items: center;
+    color: $danger;
+    font-size: $font-size-md;
+  }
+}
+
+.home-social-page-registration {
+  h1 {
+    color: $dark;
+    padding: $base-padding 0;
+    font-size: $font-size-lg;
+  }
+  p {
+    color: $secondary;
+    padding: $base-padding 0;
+    font-size: $font-size-md;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .read-more-img {
+    width: 100%;
+  }
+  .read-more-img img {
+    width: 100% !important;
+  }
+
+  .home-read-more-container-link {
+    min-width: 100%;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+  }
+  .home-read-more-container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 1px;
+  }
+
+  .home-read-more-container::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .home-campaigns {
+    padding: 0 !important;
+  }
+}
