@@ -16,7 +16,7 @@ const ReadMoreCard = (props) => {
       </div>
 
       <div className="read-more-link">
-        <a href="">
+        <a href="/">
           Read more <ArrowRight />
         </a>
       </div>
