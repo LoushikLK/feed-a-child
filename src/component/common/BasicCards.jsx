@@ -24,8 +24,8 @@ const BasicCards = (props) => {
             consectetur adipisicing elit. Corporis, explicabo!
           </p>
         </div>
-        <div className="basic-card-details-img">
-          <img src={props.image} alt="" />
+        <div data-aos="zoom-in" className="basic-card-details-img">
+          <img src={props.image} alt="" loading="lazy" />
         </div>
       </div>
       <div className="card-link">

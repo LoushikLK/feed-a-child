@@ -22,11 +22,12 @@ a {
   width: 100%;
   position: absolute;
   top: 0;
+  left: 0;
   z-index: -5;
   filter: blur(1px);
-  left: 0;
   height: 43rem;
   object-fit: cover;
+  opacity: 1;
 }
 
 .main-heading {

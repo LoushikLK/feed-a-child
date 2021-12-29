@@ -5,11 +5,11 @@ import { ArrowRight } from "@mui/icons-material";
 const ReadMoreCard = (props) => {
   return (
     <div>
-      <div className="read-more-img">
+      <div data-aos="zoom-in" className="read-more-img">
         <div className="read-more-stat">
           <p>20000000 meal donated</p>
         </div>
-        <img src={props.image} alt="" />
+        <img src={props.image} alt="" loading="lazy" />
       </div>
       <div className="read-more-title">
         <h2>India needs oxygens</h2>

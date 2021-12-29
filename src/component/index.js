@@ -1,0 +1,1 @@
+export { BasicCard, ReadMoreCard, Maincontent } from "./index";

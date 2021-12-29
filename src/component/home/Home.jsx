@@ -1,18 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Container } from "@mui/material";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 
 import homebg from "../../asset/home/homebg.jpg";
 import Maincontent from "../common/Maincontent";
 import BasicCards from "../common/BasicCards";
-import ReadMoreCard from "../common/ReadMoreCard";
+
+import { ReadMoreCard } from "component/common";
 
 const Home = () => {
   return (
     <>
       <section className="home-main">
         <Container>
-          <img src={homebg} alt="" className="bg-image-main" />
+          <div data-aos="zoom-in" className="bg-image-main">
+            <img src={homebg} alt="" className="bg-image-main" loading="lazy" />
+          </div>
 
           <Maincontent
             heading="Daily Feeding Program"
